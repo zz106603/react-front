@@ -6,10 +6,10 @@ class ComB extends React.Component {
       <div className="card">
         <div className="card-header">
           ComB
-      </div>
+        </div>
         <div className="card-body">
           content...
-      </div>
+        </div>
       </div>
     );
   }

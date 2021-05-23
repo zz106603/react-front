@@ -1,10 +1,10 @@
-function ComA() {
+function ComA(props) {
   return (
     <div className="card">
       <div className="card-header">
         ComA
     </div>
-      <div className="card-body"> 
+      <div className="card-body">
         content...
     </div>
     </div>

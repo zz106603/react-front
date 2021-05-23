@@ -9,7 +9,7 @@ function App() {
       <AppHeader />
       <div className="flex-grow-1 container-fluid">
         <div className="row h-100">
-          <div className="col-md-6 col-lg-4 p-3 bg-dark">
+          <div className="col-md-4 col-lg-4 p-3 bg-dark">
             <div className=" h-100 d-flex flex-column">
               <div className="flex-grow-1" style={{ height: "0px", overflowY: "auto", overflowX: "hidden" }}>
                 <AppMenu />
