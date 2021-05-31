@@ -23,6 +23,7 @@ function AppRoute() {
       <Route path="/ch07" component={Ch07PerformanceImprovement}/>
       <Route path="/ch08" component={Ch08GlobalState}/>
       <Route path="/ch09" component={Ch09Ajax}/>
+
       <Redirect to="/" />
     </Switch>
   );

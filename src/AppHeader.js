@@ -26,6 +26,9 @@ function AppHeader(props) {
 
     sessionStorage.removeItem("uid");
     sessionStorage.removeItem("authToken");
+
+    appContext.setUid("");
+    dispatch(createSetUidAction(""));
   };
 
   return (
